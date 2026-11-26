@@ -1,0 +1,19 @@
+{
+  "client_id": "https://evieluvsrainbows.github.io/perch/oauth-client-metadata.json",
+  "client_name": "Perch",
+  "client_uri": "https://evieluvsrainbows.github.io",
+  "application_type": "native",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "redirect_uris": [
+    "io.github.evieluvsrainbows:/callback"
+  ],
+  "scope": "atproto repo:app.bsky.feed.post?action=create&action=delete repo:app.bsky.feed.like?action=create&action=delete repo:app.bsky.feed.repost?action=create&action=delete repo:app.bsky.graph.follow?action=create&action=delete repo:app.bsky.graph.block?action=create&action=delete repo:app.bsky.feed.threadgate repo:app.bsky.feed.postgate?action=create repo:app.bsky.actor.profile?action=create&action=update repo:app.bsky.actor.link blob:image/* rpc?aud=did:web:api.bsky.app%23bsky_appview&lxm=app.bsky.actor.getProfile&lxm=app.bsky.actor.searchActorsTypeahead&lxm=app.bsky.bookmark.createBookmark&lxm=app.bsky.bookmark.deleteBookmark&lxm=app.bsky.feed.getActorLikes&lxm=app.bsky.feed.getAuthorFeed&lxm=app.bsky.feed.getLikes&lxm=app.bsky.feed.getPostThread&lxm=app.bsky.feed.getRepostedBy&lxm=app.bsky.feed.getTimeline&lxm=app.bsky.graph.getFollowers&lxm=app.bsky.graph.getFollows&lxm=app.bsky.graph.getLists&lxm=app.bsky.graph.muteActor&lxm=app.bsky.graph.unmuteActor rpc:com.atproto.moderation.createReport?aud=*",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}
